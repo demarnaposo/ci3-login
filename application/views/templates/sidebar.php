@@ -63,7 +63,7 @@ $queryMenu = "SELECT `user_menu`.`id`, `menu`
 
     <!-- Nav Item - Dashboard -->
 <li class="nav-item">
-    <a class="nav-link" href="<?php echo base_url($sm['url']); ?>">
+    <a class="nav-link pb-0" href="<?php echo base_url($sm['url']); ?>">
         <i class="<?php echo ($sm['icon']); ?>"></i>
         <span><?php echo ($sm['title']); ?></span></a>
 </li>
@@ -71,7 +71,7 @@ $queryMenu = "SELECT `user_menu`.`id`, `menu`
     <?php endforeach; ?>
 
     <!-- Divider -->
-<hr class="sidebar-divider">
+<hr class="sidebar-divider mt-3">
 
 
 <?php endforeach; ?>
